@@ -1,0 +1,13 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf600
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww20360\viewh13000\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0  README:\
+This File contains the hydraulic properties for a rock characterized by given porosity (Phi_Rock_Paper) and permeability (Cappa_Rock_Paper) fields. These files contain a 597x597 matrix with the porosity and permeability [m^2] values for each cell of the numerical rock sample arranged in a one column array, in which subsequent columns of the matrix are allocated one after the other. \
+\
+The Files Sw_Pc_drain and Sw_Pc_imbib provide with the capillary pressure-saturation relationships for drainage and imbibition cycles. They contain two columns, one with the overall saturation values, and the other with the associated capillary pressure state. For each one of the overall saturations described in these files, which are 37 saturation stages, the files Drainage and Imbibition contain the respective local hysteretic saturation fields. That is, In ./Drainage we find 37 files, fort.101 to fort.137, with are 597x597 matrixes with the saturation values of each cell of the numerical rock sample. Again, the matrixes are arranged in a one column array, in which, all the columns of the saturation fields are allocated one after the other. The same goes with ./Imbibition.\
+\
+}
