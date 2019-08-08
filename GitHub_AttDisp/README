@@ -1,6 +1,6 @@
-This File contains the attenuation and velocity dispersion curves as a function of frequency for different overall saturation values, during drainage and imbibition. The Folders ./Drain and ./Imbibi contain the files Att\'94Sw\'94 and VelDispersion\'94Sw\'94, with Sw being the overall saturation state (please note that the saturation fields associated with this curves are given in another folder of this repository).\
+This File contains the attenuation and velocity dispersion curves as a function of frequency for different overall saturation values, during drainage and imbibition. The Folders ./Drain and ./Imbibi contain the files Att"Sw" and VelDispersion"Sw", with Sw being the overall saturation state (please note that the saturation fields associated with this curves are given in another folder of this repository).\
 
 The files are written in the following manner:
 
-The attenuation files contain 3 columns: The first one is frequency [Hz], the second one the overall saturation state, and the third one the inverse quality factor.\
-The Velocity dispersion files contain 3 columns: the first one is the angular frequency in [rad/msec], the second and third columns give the Wave velocity [m/msec]. \
+The attenuation files contain 3 columns: The first one is frequency [Hz], the second one the overall saturation state, and the third one the inverse quality factor.
+The Velocity dispersion files contain 3 columns: the first one is the angular frequency in [rad/msec], the second and third columns give the Wave velocity [m/msec].
